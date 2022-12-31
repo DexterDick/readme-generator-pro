@@ -3,13 +3,13 @@
 function renderLicenseBadge(license) {
     switch (license) {
         case "MIT":
-            return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+            return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
             break;
         case "Apache-2.0":
-            return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]`;
+            return `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]`;
             break;
         case "BSD-3-Clause":
-            return `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]`;
+            return `![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)`;
             break;
         default:
             return ``;
@@ -38,8 +38,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     if (license !== "No License") {
-        return `
-## [License](Table of Contents)
+        return `## [License](Table-of-Contents)
         
 This application is covered under ${license} license:
 
@@ -64,7 +63,7 @@ function generateMarkdown(data) {
   ## Table of Contents
 
   - [Description](#description)
-  - [Installation](#Installation)
+  - [Installation](#installation)
   - [Usage](#Usage)
   ${data.license !== "No License" ? "- [License](#License)" : ""}
   - [Contributing](#contributing)
