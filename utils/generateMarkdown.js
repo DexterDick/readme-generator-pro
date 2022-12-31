@@ -15,7 +15,7 @@ function generateMarkdown(data) {
     return `
   # ${data.title}
 
-  ## Description
+  ## [Description](Table of Contents)
 
   ## Table of Contents
 
@@ -26,6 +26,37 @@ function generateMarkdown(data) {
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
+
+  ## [Installation](Table of Contents)
+
+  ${data.installation}
+
+  ## [Usage](Table of Contents)
+
+  ${data.usage}
+
+  ## [License](Table of Contents)
+
+  ## [Contributing](Table of Contents)
+
+  ## [Tests](Table of Contents)
+
+  ${data.tests}
+
+  ## [Questions](Table of Contents)
+
+  For additional questions please contact using the following links:
+
+  [Email:](https://github.com/mailto:${data.email})
+  
+  [GitHub](https://github.com/${data.github})
+
+
+
+
+
+
+  
 
 `;
 }

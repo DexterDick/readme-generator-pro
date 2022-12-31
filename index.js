@@ -65,7 +65,7 @@ const questions = [
     {
         type: "confirm",
         name: "contributeToProject",
-        message: "Would you like to developers to contribute to project?",
+        message: "Would you like developers to contribute to project?",
         default: true,
     },
     {
@@ -112,6 +112,32 @@ const questions = [
                 return true;
             } else {
                 console.log("Please enter questions!");
+                return false;
+            }
+        },
+    },
+    {
+        type: "input",
+        name: "github",
+        message: "Enter your GitHub username? (Required)",
+        validate: (githubInput) => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log("Please GitHub username!");
+                return false;
+            }
+        },
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Enter your email address. (Required)",
+        validate: (emailInput) => {
+            if (emailInput) {
+                return true;
+            } else {
+                console.log("Please email enter address!");
                 return false;
             }
         },
