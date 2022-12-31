@@ -1,7 +1,7 @@
 
-  # dsfd
+  # Test
 
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
   ## [Description](Table-of-Contents)
 
@@ -10,34 +10,42 @@
   - [Description](#description)
   - [Installation](#Installation)
   - [Usage](#Usage)
-  
+  - [License](#License)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
 
   ## [Installation](Table-of-Contents)
 
-  sdds
+  dsa
 
   ## [Usage](Table-of-Contents)
 
-  dsfds
+  ds
 
   
+## [License](Table of Contents)
+        
+This application is covered under MIT license:
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+
+(https://opensource.org/licenses/MIT)
+
 
   ## [Contributing](Table-of-Contents)
 
-  Thanks for using our app.  Developer is not accepting contributions at this time
+  fsdsdds
 
   ## [Tests](Table-of-Contents)
 
-  dsfd
+  sdds
 
   ## [Questions](Table-of-Contents)
 
   For additional questions please contact using the following links:
 
-  [Email:](https://github.com/mailto:da)
+  [Email:](https://github.com/mailto:dexterdick@gmail.com)
   
-  [GitHub](https://github.com/ds)
+  [GitHub](https://github.com/dexterdick)
 
