@@ -14,6 +14,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
     return `
   # ${data.title}
+  // call render badge function
+  ${renderLicenseBadge(data.license)}
 
   ## [Description](Table of Contents)
 
@@ -37,7 +39,15 @@ function generateMarkdown(data) {
 
   ## [License](Table of Contents)
 
+  ${renderLicenseSection(data.license)}
+
   ## [Contributing](Table of Contents)
+
+  ${
+      data.contributeToProject
+          ? data.contribute
+          : "Thanks for using our app.  Developer is not accepting contributions at this time"
+  }
 
   ## [Tests](Table of Contents)
 
