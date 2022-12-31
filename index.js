@@ -7,7 +7,7 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "Please provide title of your repository? (Required)",
+        message: "Please provide title of your project? (Required)",
         validate: (nameInput) => {
             if (nameInput) {
                 return true;
@@ -20,7 +20,7 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Please provide description of your repository? (Required)",
+        message: "Please provide description of your project? (Required)",
         validate: (nameInput) => {
             if (nameInput) {
                 return true;
@@ -60,7 +60,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Which license would you like to use for project?",
-        choices: ["mit", "apache", "No License"],
+        choices: ["MIT", "Apache-2.0", "BSD-3-Clause", "No License"],
     },
     {
         type: "confirm",
