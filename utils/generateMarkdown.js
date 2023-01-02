@@ -3,10 +3,10 @@
 function renderLicenseBadge(license) {
     switch (license) {
         case "MIT":
-            return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+            return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
             break;
         case "Apache-2.0":
-            return `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]`;
+            return `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
             break;
         case "BSD-3-Clause":
             return `![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)`;
@@ -60,6 +60,8 @@ function generateMarkdown(data) {
 
   ## [Description](Table-of-Contents)
 
+  ${data.description}
+
   ## Table of Contents
 
   - [Description](#description)
@@ -93,6 +95,8 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## [Questions](Table-of-Contents)
+
+  ${data.questions}
 
   For additional questions please contact using the following links:
 
