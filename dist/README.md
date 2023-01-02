@@ -1,7 +1,7 @@
 
-  # Readme Generator pro
+  # Readme Generator Pro
 
-  ![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
+  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
   ## [Description](Table-of-Contents)
 
@@ -27,11 +27,11 @@
 
   ## [License](Table-of-Contents)
         
-This application is covered under BSD-3-Clause license:
+This application is covered under Apache-2.0 license:
 
-![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
-(https://opensource.org/licenses/BSD-3-Clause)
+(https://opensource.org/licenses/Apache-2.0)
 
 
   ## [Contributing](Table-of-Contents)

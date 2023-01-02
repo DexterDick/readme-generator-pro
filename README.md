@@ -10,4 +10,6 @@ The App run in the command-line and dynamically generates a professional README.
 
 README Generator Pro allow developer to devote more time working on the project by automizing the README file writing process.
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Walkthrough video
+
+[![Walkthrough video](./assets/images/readme-screen.png)](https://drive.google.com/file/d/1gNP564C8U525nLOBQfgkZNm09UVfrBJ9/view "Readme walkthrough")
